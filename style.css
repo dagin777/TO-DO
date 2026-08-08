@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    user-select: none;
+    color: #ff9900 !important;
+}
+#tasks {
+    width: 30vw;
+    height: 20vh;
+    background: #ffffff;
+    color: #111111 !important; 
+    overflow: auto;
+    border-radius: 30px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.delete {
+    background-color: red;
+    width: 56px;
+    height: 24px;
+    margin: 0;
+    margin-left: 5vw;
+}
+.task {
+    width: 30vw;
+    font-size: 3vw;
+}
+.dark-mode {
+    background-color: #111111;
+    color: #ffffff;
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #111111;
+}
